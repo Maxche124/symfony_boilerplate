@@ -1,0 +1,10 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Burger Details{% endblock %}
+
+{% block body %}
+    {% include '_header.html.twig' %}
+    <h1>Détails du burger</h1>
+    <p>Vous regardez les détails du burger ID : {{ id }}</p>
+    {% include '_footer.html.twig' %}
+{% endblock %}
