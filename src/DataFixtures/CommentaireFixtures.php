@@ -32,7 +32,7 @@ class CommentaireFixtures extends Fixture implements DependentFixtureInterface
         $manager->flush();
     }
 
-    public function getDependencies()
+    public function getDependencies(): array
     {
         return [
             BurgerFixtures::class,
